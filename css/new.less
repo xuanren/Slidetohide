@@ -1,0 +1,36 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255,220,92);
+}
+body>div{
+    height: 1008px;
+}
+.page{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(255,220,92);
+}
+body,div,p,img,span,a{
+    margin: 0;
+    padding: 0;
+}
+.hidden{
+    display: none;
+}
+.page{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.loading{
+    z-index: 101;
+    .loading-head{
+        .absolute(70px,358px,533px,169px);
+    }
+    .loading_deco{
+        .absolute(47px,243px,518px,277px);
+        animation: up 1s linear infinite;
+        -webkit-animation: up 1s linear infinite;
+    }
+}

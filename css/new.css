@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffdc5c;
+}
+body > div {
+  height: 1008px;
+}
+.page {
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffdc5c;
+}
+body,
+div,
+p,
+img,
+span,
+a {
+  margin: 0;
+  padding: 0;
+}
+.hidden {
+  display: none;
+}
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=new.css.map */
